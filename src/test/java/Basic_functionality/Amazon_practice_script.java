@@ -42,7 +42,7 @@ public class Amazon_practice_script {
 		
 		laptop.click();
 		
-	Set<String> s=driver.getWindowHandles();
+/*	Set<String> s=driver.getWindowHandles();
 		ArrayList arr=new ArrayList(s);
 		driver.switchTo().window((String)arr.get(1));
 		WebElement qty=driver.findElement(By.xpath("//select[@id='quantity']"));
@@ -50,7 +50,7 @@ public class Amazon_practice_script {
 		sel.selectByIndex(2);
 		sel.selectByValue("2");
 		sel.selectByVisibleText("2");
-	
+	*/
 	}
 
 }
