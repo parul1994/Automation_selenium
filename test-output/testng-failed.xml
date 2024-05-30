@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Basic_functionality.fb_registration">
+      <class name="Basic_functionality.googleTestScript">
         <methods>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
+          <include name="f"/>
           <include name="beforeMethod"/>
-          <include name="test"/>
-          <include name="beforeClass"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- Basic_functionality.fb_registration -->
+      </class> <!-- Basic_functionality.googleTestScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

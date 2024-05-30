@@ -30,7 +30,9 @@ public class fb_registration {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("gupta");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("9898776655");
+		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("parul123@yopmail.com");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@name='reg_email_confirmation__']")).sendKeys("parul123@yopmail.com");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@name='reg_passwd__']")).sendKeys("P3455@123");
 		Thread.sleep(1000);
@@ -62,9 +64,7 @@ public class fb_registration {
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//a[@class='_97w5']")).click();
 	  Thread.sleep(2000);
-	  
-	 
-	  
+	   
   }
 
   @AfterMethod
